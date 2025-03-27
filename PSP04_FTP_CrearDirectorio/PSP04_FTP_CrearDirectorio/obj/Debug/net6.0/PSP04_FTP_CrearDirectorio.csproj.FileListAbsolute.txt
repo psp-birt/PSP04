@@ -1,0 +1,14 @@
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\bin\Debug\net6.0\PSP04_FTP_CrearDirectorio.exe
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\bin\Debug\net6.0\PSP04_FTP_CrearDirectorio.deps.json
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\bin\Debug\net6.0\PSP04_FTP_CrearDirectorio.runtimeconfig.json
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\bin\Debug\net6.0\PSP04_FTP_CrearDirectorio.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\bin\Debug\net6.0\ref\PSP04_FTP_CrearDirectorio.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\bin\Debug\net6.0\PSP04_FTP_CrearDirectorio.pdb
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\obj\Debug\net6.0\PSP04_FTP_CrearDirectorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\obj\Debug\net6.0\PSP04_FTP_CrearDirectorio.AssemblyInfoInputs.cache
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\obj\Debug\net6.0\PSP04_FTP_CrearDirectorio.AssemblyInfo.cs
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\obj\Debug\net6.0\PSP04_FTP_CrearDirectorio.csproj.CoreCompileInputs.cache
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\obj\Debug\net6.0\PSP04_FTP_CrearDirectorio.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\obj\Debug\net6.0\ref\PSP04_FTP_CrearDirectorio.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\obj\Debug\net6.0\PSP04_FTP_CrearDirectorio.pdb
+C:\Users\ulhi\source\repos\PSP\PSP04_FTP_CrearDirectorio\obj\Debug\net6.0\PSP04_FTP_CrearDirectorio.genruntimeconfig.cache
