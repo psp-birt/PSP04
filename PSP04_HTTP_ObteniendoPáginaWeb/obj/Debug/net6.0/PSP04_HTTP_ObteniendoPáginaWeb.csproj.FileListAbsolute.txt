@@ -1,0 +1,15 @@
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\bin\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.exe
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\bin\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.deps.json
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\bin\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.runtimeconfig.json
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\bin\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\bin\Debug\net6.0\ref\PSP04_HTTP_ObteniendoPáginaWeb.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\bin\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.pdb
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\obj\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\obj\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.AssemblyInfoInputs.cache
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\obj\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.AssemblyInfo.cs
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\obj\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.csproj.CoreCompileInputs.cache
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\obj\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\obj\Debug\net6.0\ref\PSP04_HTTP_ObteniendoPáginaWeb.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\obj\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.pdb
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\obj\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.genruntimeconfig.cache
+C:\Users\ulhi\Source\Repos\PSP\PSP04_HTTP_ObteniendoPáginaWeb\obj\Debug\net6.0\PSP04_HTTP_ObteniendoPáginaWeb.csproj.AssemblyReference.cache

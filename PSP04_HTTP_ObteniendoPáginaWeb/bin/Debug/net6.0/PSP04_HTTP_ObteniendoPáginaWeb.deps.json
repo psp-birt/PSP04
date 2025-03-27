@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PSP04_HTTP_ObteniendoPáginaWeb/1.0.0": {
+        "runtime": {
+          "PSP04_HTTP_ObteniendoPáginaWeb.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PSP04_HTTP_ObteniendoPáginaWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
