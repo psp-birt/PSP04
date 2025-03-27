@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RmUGuDd/z4XKLwl7EGI3YEiA7uT58XoP0LTR5GZQ+4lKzThQ1LR2ez82sPZKpCZap/acGueTUd1NVBV46FZQ5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ulhi\\source\\repos\\PSP\\PSP04_FTP_SubirFichero_FluentFTP\\PSP04_FTP_SubirFichero_FluentFTP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ulhi\\.nuget\\packages\\fluentftp\\37.0.2\\fluentftp.37.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
