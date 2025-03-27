@@ -1,0 +1,38 @@
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.csproj.AssemblyReference.cache
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\API_REST.Form1.resources
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.csproj.GenerateResource.cache
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.AssemblyInfoInputs.cache
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.AssemblyInfo.cs
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.csproj.CoreCompileInputs.cache
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\bin\Debug\net6.0-windows\PSP04_APIREST_VIDEO.exe
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\bin\Debug\net6.0-windows\PSP04_APIREST_VIDEO.deps.json
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\bin\Debug\net6.0-windows\PSP04_APIREST_VIDEO.runtimeconfig.json
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\bin\Debug\net6.0-windows\PSP04_APIREST_VIDEO.dll
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\bin\Debug\net6.0-windows\PSP04_APIREST_VIDEO.pdb
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.csproj.CopyComplete
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.dll
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\refint\PSP04_APIREST_VIDEO.dll
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.pdb
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.genruntimeconfig.cache
+C:\Users\ulhi\OneDrive - HEZKUNTZA\Documentos\DAM\PSP\2022_2023\UD04\PSP04_APIREST_VIDEO\obj\Debug\net6.0-windows\ref\PSP04_APIREST_VIDEO.dll
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\bin\Debug\net6.0-windows\PSP04_APIREST_VIDEO.exe
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\bin\Debug\net6.0-windows\PSP04_APIREST_VIDEO.deps.json
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\bin\Debug\net6.0-windows\PSP04_APIREST_VIDEO.runtimeconfig.json
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\bin\Debug\net6.0-windows\PSP04_APIREST_VIDEO.dll
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\bin\Debug\net6.0-windows\PSP04_APIREST_VIDEO.pdb
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.csproj.AssemblyReference.cache
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\API_REST.Form1.resources
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.csproj.GenerateResource.cache
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.AssemblyInfoInputs.cache
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.AssemblyInfo.cs
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.csproj.CoreCompileInputs.cache
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\PSP04_AP.D7B32552.Up2Date
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.dll
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\refint\PSP04_APIREST_VIDEO.dll
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.pdb
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\PSP04_APIREST_VIDEO.genruntimeconfig.cache
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\PSP04\PSP04_APIREST\obj\Debug\net6.0-windows\ref\PSP04_APIREST_VIDEO.dll

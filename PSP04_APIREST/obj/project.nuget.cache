@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cvtvs15Bb6U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\igortazar\\Documents\\DAM\\PSP\\2024_2025\\PSP04\\PSP04_APIREST\\PSP04_APIREST_VIDEO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\igortazar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\igortazar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\igortazar\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\igortazar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\igortazar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.31\\microsoft.netcore.app.host.win-x64.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}
