@@ -1,0 +1,38 @@
+//Importamos las librerías
+
+	using Google.Apis.Auth.OAuth2;
+	using Google.Apis.Gmail.v1;
+	using Google.Apis.Gmail.v1.Data;
+	using Google.Apis.Services;
+
+
+//creamos las credenciales y sincronizamos con la cuenta de Google
+
+	ClientSecrets secrets = new ClientSecrets
+	{
+		ClientId = googleClientId,
+		ClientSecret = googleClientSecret
+
+	};
+
+	UserCredential credential = GoogleWebAuthorizationBroker.AuthorizeAsync(secrets, scopes, "user", CancellationToken.None).Result;
+
+//Creamos el servicio 
+    var gmailService = new GmailService(new BaseClientService.Initializer() 
+    { 
+        HttpClientInitializer = this.credential, 
+        ApplicationName = this.nombreAplicacion 
+    });
+
+//Creamos mensaje en formato apropiado.
+
+    var msg = new Google.Apis.Gmail.v1.Data.Message();
+    msg.Raw = Base64UrlEncode(message.ToString());
+	
+//Hacemos el envío mediante send y lo ejecutamos.
+    var solicitud= gmailService.Users.Messages.Send(msg, "me");
+	solicitud.Execute();
+ 
+ 
+ https://googleapis.dev/dotnet/Google.Apis.Gmail.v1/latest/api/Google.Apis.Gmail.v1.html
+ https://developers.google.com/workspace/gmail?hl=es-419
