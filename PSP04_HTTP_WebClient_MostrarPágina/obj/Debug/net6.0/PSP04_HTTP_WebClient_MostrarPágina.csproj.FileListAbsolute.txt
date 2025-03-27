@@ -1,0 +1,15 @@
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\bin\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.exe
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\bin\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.deps.json
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\bin\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.runtimeconfig.json
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\bin\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\bin\Debug\net6.0\ref\PSP04_HTTP_WebClient_MostrarPágina.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\bin\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.pdb
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\obj\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\obj\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.AssemblyInfoInputs.cache
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\obj\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.AssemblyInfo.cs
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\obj\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.csproj.CoreCompileInputs.cache
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\obj\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\obj\Debug\net6.0\ref\PSP04_HTTP_WebClient_MostrarPágina.dll
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\obj\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.pdb
+C:\Users\ulhi\source\repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\obj\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.genruntimeconfig.cache
+C:\Users\ulhi\Source\Repos\PSP\PSP04_HTTP_WebClient_MostrarPágina\obj\Debug\net6.0\PSP04_HTTP_WebClient_MostrarPágina.csproj.AssemblyReference.cache
