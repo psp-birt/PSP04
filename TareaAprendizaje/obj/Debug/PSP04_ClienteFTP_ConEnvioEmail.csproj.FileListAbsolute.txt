@@ -9,3 +9,13 @@ C:\Users\ulhi\source\repos\PSP\PSP04_TareaEvaluativa\ServiciosSobreHTTP\obj\Debu
 C:\Users\ulhi\source\repos\PSP\PSP04_TareaEvaluativa\ServiciosSobreHTTP\obj\Debug\PSP04_ClienteFTP_ConEnvioEmail.csproj.CoreCompileInputs.cache
 C:\Users\ulhi\source\repos\PSP\PSP04_TareaEvaluativa\ServiciosSobreHTTP\obj\Debug\12-ServiciosSobreHTTP.exe
 C:\Users\ulhi\source\repos\PSP\PSP04_TareaEvaluativa\ServiciosSobreHTTP\obj\Debug\12-ServiciosSobreHTTP.pdb
+C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\bin\Debug\12-ServiciosSobreHTTP.exe.config
+C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\bin\Debug\12-ServiciosSobreHTTP.exe
+C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\bin\Debug\12-ServiciosSobreHTTP.pdb
+C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debug\PSP04_ClienteFTP_ConEnvioEmail.csproj.AssemblyReference.cache
+C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debug\ClienteFTP.Form1.resources
+C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debug\_12_ServiciosSobreHTTP.Properties.Resources.resources
+C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debug\PSP04_ClienteFTP_ConEnvioEmail.csproj.GenerateResource.cache
+C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debug\PSP04_ClienteFTP_ConEnvioEmail.csproj.CoreCompileInputs.cache
+C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debug\12-ServiciosSobreHTTP.exe
+C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debug\12-ServiciosSobreHTTP.pdb

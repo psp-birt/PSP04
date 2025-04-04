@@ -24,9 +24,9 @@ namespace ClienteFTP {
     /// el contenido de este método con el editor de código.
     /// </summary>
     private void InitializeComponent() {
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnseleccion = new System.Windows.Forms.Button();
+            this.btnConectar = new System.Windows.Forms.Button();
+            this.btnEnviar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -35,7 +35,7 @@ namespace ClienteFTP {
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnListar = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -48,49 +48,49 @@ namespace ClienteFTP {
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnubicacion = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnDescargar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button2
+            // btnseleccion
             // 
-            this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(69, 27);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(183, 47);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Seleccionar Fichero Subida";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnseleccion.Enabled = false;
+            this.btnseleccion.Location = new System.Drawing.Point(69, 27);
+            this.btnseleccion.Margin = new System.Windows.Forms.Padding(4);
+            this.btnseleccion.Name = "btnseleccion";
+            this.btnseleccion.Size = new System.Drawing.Size(183, 47);
+            this.btnseleccion.TabIndex = 3;
+            this.btnseleccion.Text = "Seleccionar Fichero Subida";
+            this.btnseleccion.UseVisualStyleBackColor = true;
+            this.btnseleccion.Click += new System.EventHandler(this.btnseleccion_Click);
             // 
-            // button3
+            // btnConectar
             // 
-            this.button3.Location = new System.Drawing.Point(472, 40);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(183, 68);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Conectar";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button1_Click);
+            this.btnConectar.Location = new System.Drawing.Point(472, 40);
+            this.btnConectar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnConectar.Name = "btnConectar";
+            this.btnConectar.Size = new System.Drawing.Size(183, 68);
+            this.btnConectar.TabIndex = 4;
+            this.btnConectar.Text = "Conectar";
+            this.btnConectar.UseVisualStyleBackColor = true;
+            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
             // 
-            // button4
+            // btnEnviar
             // 
-            this.button4.Enabled = false;
-            this.button4.Location = new System.Drawing.Point(615, 27);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(183, 47);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Enviar fichero al Servidor";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button3_Click);
+            this.btnEnviar.Enabled = false;
+            this.btnEnviar.Location = new System.Drawing.Point(615, 27);
+            this.btnEnviar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(183, 47);
+            this.btnEnviar.TabIndex = 5;
+            this.btnEnviar.Text = "Enviar fichero al Servidor";
+            this.btnEnviar.UseVisualStyleBackColor = true;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // label1
             // 
@@ -178,17 +178,17 @@ namespace ClienteFTP {
             this.textBox5.Size = new System.Drawing.Size(303, 47);
             this.textBox5.TabIndex = 17;
             // 
-            // button6
+            // btnListar
             // 
-            this.button6.Enabled = false;
-            this.button6.Location = new System.Drawing.Point(24, 40);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(183, 68);
-            this.button6.TabIndex = 18;
-            this.button6.Text = "Listar Contenido Servidor Detallado";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnListar.Enabled = false;
+            this.btnListar.Location = new System.Drawing.Point(24, 40);
+            this.btnListar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnListar.Name = "btnListar";
+            this.btnListar.Size = new System.Drawing.Size(183, 68);
+            this.btnListar.TabIndex = 18;
+            this.btnListar.Text = "Listar Contenido Servidor Detallado";
+            this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
             // textBox6
             // 
@@ -205,7 +205,7 @@ namespace ClienteFTP {
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button6);
+            this.groupBox1.Controls.Add(this.btnListar);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Location = new System.Drawing.Point(12, 153);
             this.groupBox1.Name = "groupBox1";
@@ -232,7 +232,6 @@ namespace ClienteFTP {
             this.comboBox1.Size = new System.Drawing.Size(712, 24);
             this.comboBox1.TabIndex = 20;
             this.comboBox1.DropDown += new System.EventHandler(this.comboBox1_DroppedDown);
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // groupBox2
             // 
@@ -241,8 +240,8 @@ namespace ClienteFTP {
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Controls.Add(this.textBox6);
             this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Controls.Add(this.btnseleccion);
+            this.groupBox2.Controls.Add(this.btnEnviar);
             this.groupBox2.Location = new System.Drawing.Point(12, 496);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(886, 196);
@@ -262,7 +261,6 @@ namespace ClienteFTP {
             this.textBox8.TabIndex = 23;
             this.textBox8.Text = "PSPBirt@gmail.com";
             this.textBox8.Visible = false;
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
             // checkBox2
             // 
@@ -292,9 +290,9 @@ namespace ClienteFTP {
             this.groupBox3.Controls.Add(this.checkBox3);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.comboBox1);
-            this.groupBox3.Controls.Add(this.button7);
+            this.groupBox3.Controls.Add(this.btnubicacion);
             this.groupBox3.Controls.Add(this.textBox7);
-            this.groupBox3.Controls.Add(this.button5);
+            this.groupBox3.Controls.Add(this.btnDescargar);
             this.groupBox3.Location = new System.Drawing.Point(12, 709);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(895, 256);
@@ -335,17 +333,17 @@ namespace ClienteFTP {
             this.label6.TabIndex = 22;
             this.label6.Text = "Elige un fichero para descarga:";
             // 
-            // button7
+            // btnubicacion
             // 
-            this.button7.Enabled = false;
-            this.button7.Location = new System.Drawing.Point(68, 113);
-            this.button7.Margin = new System.Windows.Forms.Padding(4);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(183, 47);
-            this.button7.TabIndex = 21;
-            this.button7.Text = "Ubicación donde quiero guardar";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnubicacion.Enabled = false;
+            this.btnubicacion.Location = new System.Drawing.Point(68, 113);
+            this.btnubicacion.Margin = new System.Windows.Forms.Padding(4);
+            this.btnubicacion.Name = "btnubicacion";
+            this.btnubicacion.Size = new System.Drawing.Size(183, 47);
+            this.btnubicacion.TabIndex = 21;
+            this.btnubicacion.Text = "Ubicación donde quiero guardar";
+            this.btnubicacion.UseVisualStyleBackColor = true;
+            this.btnubicacion.Click += new System.EventHandler(this.btnubicacion_Click);
             // 
             // textBox7
             // 
@@ -359,27 +357,27 @@ namespace ClienteFTP {
             this.textBox7.TabIndex = 19;
             this.textBox7.Text = "c:\\";
             // 
-            // button5
+            // btnDescargar
             // 
-            this.button5.Enabled = false;
-            this.button5.Location = new System.Drawing.Point(598, 113);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(183, 47);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Descargar Fichero";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnDescargar.Enabled = false;
+            this.btnDescargar.Location = new System.Drawing.Point(598, 113);
+            this.btnDescargar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDescargar.Name = "btnDescargar";
+            this.btnDescargar.Size = new System.Drawing.Size(183, 47);
+            this.btnDescargar.TabIndex = 5;
+            this.btnDescargar.Text = "Descargar Fichero";
+            this.btnDescargar.UseVisualStyleBackColor = true;
+            this.btnDescargar.Click += new System.EventHandler(this.btnDescargar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(915, 978);
+            this.ClientSize = new System.Drawing.Size(932, 988);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox4);
@@ -391,7 +389,7 @@ namespace ClienteFTP {
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "BirtLH FTP Client";
-            this.Load += new System.EventHandler(this.Form1_Load);
+
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -404,10 +402,10 @@ namespace ClienteFTP {
 
     }
 
-    #endregion
-    private System.Windows.Forms.Button button2;
-    private System.Windows.Forms.Button button3;
-    private System.Windows.Forms.Button button4;
+        #endregion
+        private System.Windows.Forms.Button btnseleccion;
+        private System.Windows.Forms.Button btnConectar;
+        private System.Windows.Forms.Button btnEnviar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
@@ -416,14 +414,14 @@ namespace ClienteFTP {
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnListar;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnubicacion;
         private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnDescargar;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
