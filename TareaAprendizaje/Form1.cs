@@ -20,159 +20,53 @@ namespace ClienteFTP {
     StreamReader reader = null;
     FtpWebRequest request = null;
 
-    //FTP: listar ficheros
-    private void button1_Click(object sender, EventArgs e) 
-    {
-        try
-        {
-            this.server = textBox4.Text;
-            this.name = textBox2.Text;
-            this.password = textBox3.Text;
-            request = (FtpWebRequest)WebRequest.Create("ftp://" + this.server + "/");
-            request.Method = WebRequestMethods.Ftp. ListDirectory;
-            request.Credentials = new NetworkCredential(this.name, this.password);
-
-            response = (FtpWebResponse)request.GetResponse();
-
-            while (response!=null)
-            {
-                Stream responseStream = response.GetResponseStream();
-                reader = new StreamReader(responseStream);
-                string line = string.Empty;
-                string texto = string.Empty;
-
-                textBox1.Clear();
-                do
-                {
-                    line = reader.ReadLine();
-                    comboBox1.Items.Add(line);
-                    textBox1.AppendText(line + "\r\n");
-
-                } while (!reader.EndOfStream);
-
-                    
-                comboBox1.SelectedIndex = 1;
-                button6.Enabled = true;
-                button2.Enabled = true;
-                button7.Enabled = true;
-                button3.Enabled = false;
-                response = null;
-
-            }
-
-                
-        }
-        catch(Exception ex)
-        {
-                
-            this.textBox1.Text = ex.Message;
-              
-        }
-        finally
-        {
-
-            if (!(reader == null))
-            {
-                reader.Close();
-            };
-            if (!(response == null))
-                {
-                response.Close();
-            };
-
-        };
-          
-
-    }
 
 
-        //FTP: Selecciona el fichero que para subir y lo deja en textBox5
-        private void button2_Click(object sender, EventArgs e) 
-        {
-            OpenFileDialog openFileDialog1 = new OpenFileDialog();
-            openFileDialog1.Title = "Seleccionar el fichero";
-            openFileDialog1.InitialDirectory = @"C:\";
-            openFileDialog1.Filter = "All files (*.*)|*.*|Text File (*.txt)|*.txt";
-            openFileDialog1.FilterIndex = 2;
-            openFileDialog1.ShowDialog();
-            if (openFileDialog1.FileName != "")
-            { textBox5.Text = openFileDialog1.FileName;
-                button4.Enabled = true;
-            }
-            else
-            { textBox5.Text = "No has llegado a seleccionar el fichero!"; }
-        }
-   
 
-        private void button3_Click(object sender, EventArgs e) 
+
+        private void btnConectar_Click(object sender, EventArgs e)
         {
             try
             {
+                this.server = textBox4.Text;
+                this.name = textBox2.Text;
+                this.password = textBox3.Text;
+                request = (FtpWebRequest)WebRequest.Create("ftp://" + this.server + "/");
+                request.Method = WebRequestMethods.Ftp.ListDirectory;
+                request.Credentials = new NetworkCredential(this.name, this.password);
 
-                string serverFileName = string.Empty;
-                if (checkBox1.Checked == true)
+                response = (FtpWebResponse)request.GetResponse();
+
+                while (response != null)
                 {
-                    serverFileName = textBox6.Text;
-                }
-                else
-                {
-                    serverFileName = textBox5.Text;
+                    Stream responseStream = response.GetResponseStream();
+                    reader = new StreamReader(responseStream);
+                    string line = string.Empty;
+                    string texto = string.Empty;
 
-                }
-                button4.Enabled = true;
-                
-                request = (FtpWebRequest)WebRequest.Create("ftp://" + textBox4.Text + "/" + Path.GetFileName(serverFileName));
-                request.Method = WebRequestMethods.Ftp.UploadFile;
-
-                request.Credentials = new NetworkCredential(textBox2.Text, textBox3.Text);
-
-                //response = (FtpWebResponse)request.GetResponse();
-
-                byte[] fileContents;
-
-                using (reader = new StreamReader(textBox5.Text))
-                {
-                    fileContents = Encoding.UTF8.GetBytes(reader.ReadToEnd());
-
-                }
-
-                request.ContentLength = fileContents.Length;
-
-                using (Stream requesStream = request.GetRequestStream())
-                {
-                    requesStream.Write(fileContents, 0, fileContents.Length);
-                }
-                using (response = (FtpWebResponse)request.GetResponse())
-                {
-
-                    string caption = "Resultado de subida de Fichero FTP";
-                    MessageBoxButtons buttons = MessageBoxButtons.OK;
-                    
-
-                    DialogResult result = MessageBox.Show("Fichero subido con código:" + response.StatusDescription,caption, buttons);
-                    if (result == System.Windows.Forms.DialogResult.Yes)
+                    textBox1.Clear();
+                    do
                     {
-                        // Closes the parent form.
-                        this.Close();
-                    }
-                    Debug.WriteLine("Fichero subido con código" + response.StatusDescription);
-                    if (checkBox2.Checked == true)
-                    {
-                        SendMail(textBox8.Text, serverFileName, " es el nombre del fichero subido al servidor FTP.");
-                    }
-                }
-                checkBox2.CheckState = CheckState.Unchecked;
-                checkBox1.CheckState = CheckState.Unchecked;
-                textBox8.Enabled = false;
-                textBox6.Enabled = false;
-                button4.Enabled = false;
+                        line = reader.ReadLine();
+                        comboBox1.Items.Add(line);
+                        textBox1.AppendText(line + "\r\n");
 
+                    } while (!reader.EndOfStream);
+
+
+                    comboBox1.SelectedIndex = 1;
+                    btnListar.Enabled = true;
+                    btnseleccion.Enabled = true;
+                    btnubicacion.Enabled = true;
+                    btnConectar.Enabled = false;
+                    response = null;
+
+                }
 
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
 
                 this.textBox1.Text = ex.Message;
 
@@ -191,14 +85,9 @@ namespace ClienteFTP {
 
             };
         }
-       
 
-
-        private void button6_Click(object sender, EventArgs e)
+        private void btnListar_Click(object sender, EventArgs e)
         {
-
-      
-
             try
             {
                 request = (FtpWebRequest)WebRequest.Create("ftp://" + textBox4.Text + "/");
@@ -235,53 +124,116 @@ namespace ClienteFTP {
                 };
 
             };
-
-
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        //FTP: Selecciona el fichero que para subir y lo deja en textBox5
+        private void btnseleccion_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-
-            response.Close();
-            reader.Close();
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-
-         
-            request.Method = WebRequestMethods.Ftp.ListDirectory;
-
-            request.Credentials = new NetworkCredential(textBox2.Text, textBox3.Text);
-
-            response = (FtpWebResponse)request.GetResponse();
-            
-
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             openFileDialog1.Title = "Seleccionar el fichero";
-            openFileDialog1.InitialDirectory = @"ftp://" + textBox4.Text + "/";
-            
+            openFileDialog1.InitialDirectory = @"C:\";
             openFileDialog1.Filter = "All files (*.*)|*.*|Text File (*.txt)|*.txt";
             openFileDialog1.FilterIndex = 2;
             openFileDialog1.ShowDialog();
             if (openFileDialog1.FileName != "")
-            { textBox7.Text = openFileDialog1.FileName; }
+            {
+                textBox5.Text = openFileDialog1.FileName;
+                btnEnviar.Enabled = true;
+            }
             else
-            { textBox7.Text = "No has llegado a seleccionar el directorio local!"; }
+            { textBox5.Text = "No has llegado a seleccionar el fichero!"; }
         }
 
-
-
-        private void button7_Click(object sender, EventArgs e)
+        private void btnEnviar_Click(object sender, EventArgs e)
         {
-            
+            try
+            {
 
+                string serverFileName = string.Empty;
+                if (checkBox1.Checked == true)
+                {
+                    serverFileName = textBox6.Text;
+                }
+                else
+                {
+                    serverFileName = textBox5.Text;
+
+                }
+                btnEnviar.Enabled = true;
+
+                request = (FtpWebRequest)WebRequest.Create("ftp://" + textBox4.Text + "/" + Path.GetFileName(serverFileName));
+                request.Method = WebRequestMethods.Ftp.UploadFile;
+
+                request.Credentials = new NetworkCredential(textBox2.Text, textBox3.Text);
+
+                //response = (FtpWebResponse)request.GetResponse();
+
+                byte[] fileContents;
+
+                using (reader = new StreamReader(textBox5.Text))
+                {
+                    fileContents = Encoding.UTF8.GetBytes(reader.ReadToEnd());
+
+                }
+
+                request.ContentLength = fileContents.Length;
+
+                using (Stream requesStream = request.GetRequestStream())
+                {
+                    requesStream.Write(fileContents, 0, fileContents.Length);
+                }
+                using (response = (FtpWebResponse)request.GetResponse())
+                {
+
+                    string caption = "Resultado de subida de Fichero FTP";
+                    MessageBoxButtons buttons = MessageBoxButtons.OK;
+
+
+                    DialogResult result = MessageBox.Show("Fichero subido con código:" + response.StatusDescription, caption, buttons);
+                    if (result == System.Windows.Forms.DialogResult.Yes)
+                    {
+                        // Closes the parent form.
+                        this.Close();
+                    }
+                    Debug.WriteLine("Fichero subido con código" + response.StatusDescription);
+                    if (checkBox2.Checked == true)
+                    {
+                        SendMail(textBox8.Text, serverFileName, " es el nombre del fichero subido al servidor FTP.");
+                    }
+                }
+                checkBox2.CheckState = CheckState.Unchecked;
+                checkBox1.CheckState = CheckState.Unchecked;
+                textBox8.Enabled = false;
+                textBox6.Enabled = false;
+                btnEnviar.Enabled = false;
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+
+                this.textBox1.Text = ex.Message;
+
+            }
+            finally
+            {
+
+                if (!(reader == null))
+                {
+                    reader.Close();
+                };
+                if (!(response == null))
+                {
+                    response.Close();
+                };
+
+            };
+        }
+
+        private void btnubicacion_Click(object sender, EventArgs e)
+        {
             using (var fd = new FolderBrowserDialog())
             {
                 if (fd.ShowDialog() == System.Windows.Forms.DialogResult.OK && !string.IsNullOrWhiteSpace(fd.SelectedPath))
@@ -289,14 +241,11 @@ namespace ClienteFTP {
                     textBox7.Text = fd.SelectedPath;
                 }
             }
-            button5.Enabled = true;
-            
+            btnDescargar.Enabled = true;
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btnDescargar_Click(object sender, EventArgs e)
         {
-       
-
             try
             {
                 string strFileNameLocal = textBox7.Text + "\\" + comboBox1.SelectedItem.ToString();
@@ -310,7 +259,7 @@ namespace ClienteFTP {
 
                 checkBox3.CheckState = CheckState.Unchecked;
                 textBox9.Enabled = false;
-                button5.Enabled = false;
+                btnDescargar.Enabled = false;
 
             }
             catch (Exception ex)
@@ -337,6 +286,17 @@ namespace ClienteFTP {
 
             };
         }
+
+
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+            response.Close();
+            reader.Close();
+        }
+
+      
 
         public void Download(string strServer, string strUser, string strPassword,
                  string strFileNameFTP, string strFileNameLocal)
@@ -535,15 +495,8 @@ namespace ClienteFTP {
             };
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
+       
 
-        }
-
-        private void textBox8_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 
 }
