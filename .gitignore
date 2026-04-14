@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PSP04_FTP_SubirFichero/.vs/PSP04_FTP_SubirFichero/DesignTimeBuild/.dtbcache.v2
+/PSP04_FTP_SubirFichero/.vs/PSP04_FTP_SubirFichero/FileContentIndex/22efb7da-2458-409c-bf6b-ccf18f1e19ff.vsidx

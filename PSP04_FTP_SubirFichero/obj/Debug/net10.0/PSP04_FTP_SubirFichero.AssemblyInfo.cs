@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PSP04_FTP_SubirFichero")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d351f7c61d9dd7c60364c1192f35b5cc2837498")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59adbbb5e797906ad1a4d0d9922d782161b2ae12")]
 [assembly: System.Reflection.AssemblyProductAttribute("PSP04_FTP_SubirFichero")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PSP04_FTP_SubirFichero")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
