@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v6.0": {
       "PSP04_FTP_SubirFichero_FluentFTP/1.0.0": {
         "dependencies": {
-          "FluentFTP": "37.0.2"
+          "FluentFTP": "54.1.1"
         },
         "runtime": {
           "PSP04_FTP_SubirFichero_FluentFTP.dll": {}
         }
       },
-      "FluentFTP/37.0.2": {
+      "FluentFTP/54.1.1": {
         "runtime": {
-          "lib/net5.0/FluentFTP.dll": {
-            "assemblyVersion": "37.0.2.0",
-            "fileVersion": "37.0.2.0"
+          "lib/netstandard2.1/FluentFTP.dll": {
+            "assemblyVersion": "54.1.1.0",
+            "fileVersion": "54.1.1.0"
           }
         }
       }
@@ -30,12 +30,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FluentFTP/37.0.2": {
+    "FluentFTP/54.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UW2svrugWPVK7g6heJjGbsWIBPhJHOtMmp1g4NijSTd3z8f+qxg8kv8cIzAWfxusjCRThIHpJts2PHjbg0SOKQ==",
-      "path": "fluentftp/37.0.2",
-      "hashPath": "fluentftp.37.0.2.nupkg.sha512"
+      "sha512": "sha512-kJaZD+HIS13XrE140ToNSaOWyirEvWz31O5IGjCry8Idprmh2xVmxN/VjXkXWtK58inO1AsOJTtJimMQ8Pkaiw==",
+      "path": "fluentftp/54.1.1",
+      "hashPath": "fluentftp.54.1.1.nupkg.sha512"
     }
   }
 }

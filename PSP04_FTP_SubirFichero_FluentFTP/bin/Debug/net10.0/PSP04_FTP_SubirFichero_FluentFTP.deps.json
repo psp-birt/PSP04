@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "PSP04_FTP_SubirFichero_FluentFTP/1.0.0": {
+        "dependencies": {
+          "FluentFTP": "54.1.1"
+        },
+        "runtime": {
+          "PSP04_FTP_SubirFichero_FluentFTP.dll": {}
+        }
+      },
+      "FluentFTP/54.1.1": {
+        "runtime": {
+          "lib/net9.0/FluentFTP.dll": {
+            "assemblyVersion": "54.1.1.0",
+            "fileVersion": "54.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PSP04_FTP_SubirFichero_FluentFTP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentFTP/54.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kJaZD+HIS13XrE140ToNSaOWyirEvWz31O5IGjCry8Idprmh2xVmxN/VjXkXWtK58inO1AsOJTtJimMQ8Pkaiw==",
+      "path": "fluentftp/54.1.1",
+      "hashPath": "fluentftp.54.1.1.nupkg.sha512"
+    }
+  }
+}

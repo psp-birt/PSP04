@@ -11,33 +11,39 @@ namespace FTP
         {
  
             // crear un objeto cliente FTP
-            FtpClient client = new FtpClient("192.168.1.146");
+            FtpClient client = new FtpClient("192.168.200.21");
 
             // Se especifican las credenciales
-            client.Credentials = new NetworkCredential("ftpuser", "Birt123");
+            client.Credentials = new NetworkCredential("itziar", "Birt123.");
+
+
+            //Configuración de certificado SSL
+            client.Config.EncryptionMode = FtpEncryptionMode.Explicit;
+            client.Config.ValidateAnyCertificate = true;
 
             // Conectar a servidor
             client.Connect();
 
             //Subimos un fichero local y le cambiamos el nombre en el servidor
-            client.UploadFile(@"C:\Users\ulhi\source\repos\PSP\PSP04_FTP_SubirFichero_FluentFTP\fichero1Birt.txt", "fichero1BirtFluentFTP.txt");
+            string rutaFichero = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "..", "fichero1Birt.txt");
+            client.UploadFile(rutaFichero, "fichero1BirtFluentFTP.txt");
             
             
             //Renombramos el fichero del servidor
-            //client.Rename("fichero1BirtFluentFTP.txt", "fichero1BirtFluentFTPCambioNombre.txt");
+            client.Rename("fichero1BirtFluentFTP.txt", "fichero1BirtFluentFTPCambioNombre.txt");
 
             //Creamos un directorio en el servidor
-            //client.CreateDirectory("DirectorioFluentFTP");
+            client.CreateDirectory("DirectorioFluentFTP");
 
             //Movemos el fichero dentro del directorio que hemos creado
-            //client.MoveFile("fichero1BirtFluentFTPCambioNombre.txt", "/DirectorioFluentFTP/fichero1BirtFluentFTPCambioNombre.txt");
+            client.MoveFile("fichero1BirtFluentFTPCambioNombre.txt", "/DirectorioFluentFTP/fichero1BirtFluentFTPCambioNombre.txt");
 
-            //Chequea de forma asíncrona si existe un fichero en el servidor con el nombre especificado
-            bool ok = await client.FileExistsAsync("fichero1BirtFluentFTP.txt");
+            //Chequea si existe un fichero en el servidor con el nombre especificado
+            //bool ok = client.FileExists("fichero1BirtFluentFTP.txt");
 
-            //bool ok = await client.FileExistsAsync("fichero1BirtFluentFTPCambioNombre.txt");
+            //bool ok = client.FileExists("fichero1BirtFluentFTPCambioNombre.txt");
 
-            //bool ok = await client.FileExistsAsync("/DirectorioFluentFTP/fichero1BirtFluentFTPCambioNombre.txt");
+            bool ok = client.FileExists("/DirectorioFluentFTP/fichero1BirtFluentFTPCambioNombre.txt");
 
             if (ok)
                 Console.WriteLine(ok);

@@ -27,3 +27,18 @@ C:\Users\igortazar\Downloads\PSP2023_2024-main (2)\PSP2023_2024-main\PSP04\PSP04
 C:\Users\igortazar\Downloads\PSP2023_2024-main (2)\PSP2023_2024-main\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\PSP04_FTP_SubirFichero.pdb
 C:\Users\igortazar\Downloads\PSP2023_2024-main (2)\PSP2023_2024-main\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\PSP04_FTP_SubirFichero.genruntimeconfig.cache
 C:\Users\igortazar\Downloads\PSP2023_2024-main (2)\PSP2023_2024-main\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\ref\PSP04_FTP_SubirFichero.dll
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\bin\Debug\net6.0\PSP04_FTP_SubirFichero.exe
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\bin\Debug\net6.0\PSP04_FTP_SubirFichero.deps.json
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\bin\Debug\net6.0\PSP04_FTP_SubirFichero.runtimeconfig.json
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\bin\Debug\net6.0\PSP04_FTP_SubirFichero.dll
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\bin\Debug\net6.0\PSP04_FTP_SubirFichero.pdb
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\PSP04_FTP_SubirFichero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\PSP04_FTP_SubirFichero.AssemblyInfoInputs.cache
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\PSP04_FTP_SubirFichero.AssemblyInfo.cs
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\PSP04_FTP_SubirFichero.csproj.CoreCompileInputs.cache
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\PSP04_FTP_SubirFichero.sourcelink.json
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\PSP04_FTP_SubirFichero.dll
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\refint\PSP04_FTP_SubirFichero.dll
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\PSP04_FTP_SubirFichero.pdb
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\PSP04_FTP_SubirFichero.genruntimeconfig.cache
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_SubirFichero\obj\Debug\net6.0\ref\PSP04_FTP_SubirFichero.dll

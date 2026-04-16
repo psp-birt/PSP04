@@ -3,16 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|c:\\users\\birt\\documents\\dam\\psp\\2025_2026\\repositorio\\psp04\\psp04_ftp_subirfichero\\psp04_ftp_subirfichero.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|solutionrelative:psp04_ftp_subirfichero.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|c:\\users\\birt\\documents\\dam\\psp\\2025_2026\\repositorio\\psp04\\psp04_ftp_subirfichero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|c:\\users\\birt\\documents\\dam\\psp\\2025_2026\\repositorio\\psp04\\psp04_ftp_subirfichero\\psp04_ftp_subirfichero.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|solutionrelative:psp04_ftp_subirfichero.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|c:\\users\\birt\\documents\\dam\\psp\\2025_2026\\repositorio\\psp04\\psp04_ftp_subirfichero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|c:\\users\\birt\\documents\\dam\\psp\\2025_2026\\repositorio\\psp04\\psp04_ftp_subirfichero\\psp04_ftp_subirfichero.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|solutionrelative:psp04_ftp_subirfichero.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|c:\\users\\birt\\documents\\dam\\psp\\2025_2026\\repositorio\\psp04\\psp04_ftp_subirfichero\\fichero1birt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{001F148B-BA60-4F1B-A2D0-4F2E5995400A}|PSP04_FTP_SubirFichero.csproj|solutionrelative:fichero1birt.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +29,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PSP04_FTP_SubirFichero",
-              "DocumentMoniker": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\PSP04_FTP_SubirFichero.csproj",
-              "RelativeDocumentMoniker": "PSP04_FTP_SubirFichero.csproj",
-              "ToolTip": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\PSP04_FTP_SubirFichero.csproj",
-              "RelativeToolTip": "PSP04_FTP_SubirFichero.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-14T07:45:00.811Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -80,27 +74,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T06:57:02.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.NET.EolTargetFrameworks.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-15T06:46:59.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fichero1Birt.txt",
+              "DocumentMoniker": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\fichero1Birt.txt",
+              "RelativeDocumentMoniker": "fichero1Birt.txt",
+              "ToolTip": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\fichero1Birt.txt",
+              "RelativeToolTip": "fichero1Birt.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-14T10:31:57.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PSP04_FTP_SubirFichero.csproj",
+              "DocumentMoniker": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\PSP04_FTP_SubirFichero.csproj",
+              "RelativeDocumentMoniker": "PSP04_FTP_SubirFichero.csproj",
+              "ToolTip": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\PSP04_FTP_SubirFichero.csproj",
+              "RelativeToolTip": "PSP04_FTP_SubirFichero.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-14T07:45:00.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PSP04_FTP_SubirFichero",
               "DocumentMoniker": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\PSP04_FTP_SubirFichero.csproj",
               "RelativeDocumentMoniker": "PSP04_FTP_SubirFichero.csproj",
               "ToolTip": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\PSP04_FTP_SubirFichero.csproj",
               "RelativeToolTip": "PSP04_FTP_SubirFichero.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-14T07:45:02.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP04\\PSP04_FTP_SubirFichero\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T06:57:02.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T07:45:02.618Z"
             }
           ]
         },

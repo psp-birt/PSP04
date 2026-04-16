@@ -16,12 +16,12 @@ namespace FTP
             // creamos una conexión FTP
             //Indicamos servidor al que nos vamos a conectar. Nuestro servidor no dispone de ninguna dirección URL o ULI y por lo tanto lo adaptamos a la dirección IP
             //En este caso vamos a crear un directorio
-            string serverUri = "ftp://192.168.1.146/BirtLHDir";
+            string serverUri = "ftp://ftp.dlptest.com/BirtLHDir";
             request = (FtpWebRequest)WebRequest.Create(serverUri);
 
             request.Method = WebRequestMethods.Ftp.Rename;
             // Si no se especifican las credenciales se asignan unas credenciales de tipo anónimas. El servidor lo deberá permitir.
-            request.Credentials = new NetworkCredential("ftpuser", "Birt123");
+            request.Credentials = new NetworkCredential("dlpuser", "rNrKYTX9g7z3RgJRmxWuGHbeu");
 
             request.RenameTo = "BirtLHDirNombreCambio";
             //using (request.GetRequestStream())
@@ -30,7 +30,6 @@ namespace FTP
             {
                 Console.WriteLine("Modificado el directorio con código: " + response.StatusDescription);
             }
-
 
 
         }

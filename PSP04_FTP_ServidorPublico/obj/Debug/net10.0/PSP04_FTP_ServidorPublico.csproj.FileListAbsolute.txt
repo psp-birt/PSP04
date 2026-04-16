@@ -1,0 +1,15 @@
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\bin\Debug\net10.0\PSP04_FTP_ServidorPublico.exe
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\bin\Debug\net10.0\PSP04_FTP_ServidorPublico.deps.json
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\bin\Debug\net10.0\PSP04_FTP_ServidorPublico.runtimeconfig.json
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\bin\Debug\net10.0\PSP04_FTP_ServidorPublico.dll
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\bin\Debug\net10.0\PSP04_FTP_ServidorPublico.pdb
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\obj\Debug\net10.0\PSP04_FTP_ServidorPublico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\obj\Debug\net10.0\PSP04_FTP_ServidorPublico.AssemblyInfoInputs.cache
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\obj\Debug\net10.0\PSP04_FTP_ServidorPublico.AssemblyInfo.cs
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\obj\Debug\net10.0\PSP04_FTP_ServidorPublico.csproj.CoreCompileInputs.cache
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\obj\Debug\net10.0\PSP04_FTP_ServidorPublico.sourcelink.json
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\obj\Debug\net10.0\PSP04_FTP_ServidorPublico.dll
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\obj\Debug\net10.0\refint\PSP04_FTP_ServidorPublico.dll
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\obj\Debug\net10.0\PSP04_FTP_ServidorPublico.pdb
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\obj\Debug\net10.0\PSP04_FTP_ServidorPublico.genruntimeconfig.cache
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\PSP04_FTP_ServidorPublico\obj\Debug\net10.0\ref\PSP04_FTP_ServidorPublico.dll
