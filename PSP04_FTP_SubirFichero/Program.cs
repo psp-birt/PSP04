@@ -45,9 +45,6 @@ namespace FTP
             {
                 Console.WriteLine("Fichero subido con código: " + response.StatusDescription);
             }
-  
-            
-
         }
     }
 }
