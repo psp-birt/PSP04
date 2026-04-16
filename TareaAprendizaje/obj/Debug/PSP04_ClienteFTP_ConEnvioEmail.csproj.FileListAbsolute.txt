@@ -19,3 +19,13 @@ C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debu
 C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debug\PSP04_ClienteFTP_ConEnvioEmail.csproj.CoreCompileInputs.cache
 C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debug\12-ServiciosSobreHTTP.exe
 C:\Users\igortazar\Downloads\PSP04-main (1)\PSP04-main\TareaAprendizaje\obj\Debug\12-ServiciosSobreHTTP.pdb
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\TareaAprendizaje\bin\Debug\12-ServiciosSobreHTTP.exe.config
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\TareaAprendizaje\bin\Debug\12-ServiciosSobreHTTP.exe
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\TareaAprendizaje\bin\Debug\12-ServiciosSobreHTTP.pdb
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\TareaAprendizaje\obj\Debug\PSP04_ClienteFTP_ConEnvioEmail.csproj.AssemblyReference.cache
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\TareaAprendizaje\obj\Debug\ClienteFTP.Form1.resources
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\TareaAprendizaje\obj\Debug\_12_ServiciosSobreHTTP.Properties.Resources.resources
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\TareaAprendizaje\obj\Debug\PSP04_ClienteFTP_ConEnvioEmail.csproj.GenerateResource.cache
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\TareaAprendizaje\obj\Debug\PSP04_ClienteFTP_ConEnvioEmail.csproj.CoreCompileInputs.cache
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\TareaAprendizaje\obj\Debug\12-ServiciosSobreHTTP.exe
+C:\Users\birt\Documents\DAM\PSP\2025_2026\repositorio\PSP04\TareaAprendizaje\obj\Debug\12-ServiciosSobreHTTP.pdb
