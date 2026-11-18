@@ -18,7 +18,7 @@ namespace HTTP
             Console.OutputEncoding = Encoding.UTF8;
 
             // Indicamos la URL de la página que queremos consultar.
-            const string url = "https://www.example.com/";
+            const string url = "https://www.google.com/";
 
             try
             {
