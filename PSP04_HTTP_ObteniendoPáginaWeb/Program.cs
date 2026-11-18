@@ -1,37 +1,60 @@
 ﻿using System;
-using System.IO;
-using System.Net;
+using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace HTTP
 {
-    class Program
+    internal class Program
     {
-        public static void Main(String[] args)
+        // Creamos un cliente reutilizable para las solicitudes de la aplicación.
+        private static readonly HttpClient cliente = new HttpClient
         {
-            
-            // Obtenemos el objeto solicitud a una petición WebRequest.
+            Timeout = TimeSpan.FromSeconds(30)
+        };
 
-            WebRequest solicitud = WebRequest.Create("https://www.google.com");
+        public static async Task Main()
+        {
+            Console.OutputEncoding = Encoding.UTF8;
 
-            // Obtenemos la respuesta a la solicitud.
-            WebResponse respuesta = solicitud.GetResponse(); //Cuidado es bloqueante para que no lo sea necesitamos el método GestResponseAsync().
+            // Indicamos la URL de la página que queremos consultar.
+            const string url = "https://www.example.com/";
 
-            //Recogemos la respuesta en un objeto Stream para mostrarlo por consola
-            Stream data = respuesta.GetResponseStream();
-            string html = string.Empty;
-
-
-
-            //Creamos el objeto StreamReader para tratar la respuesta mediante métodos de tipo Stream
-            using (StreamReader lectura = new StreamReader(data))
+            try
             {
-                html = lectura.ReadToEnd();
-            }
+                Console.WriteLine($"Consultando: {url}");
 
-            //Mostramos el resultado como respuesta.
-            Console.WriteLine(html);
-           
+                // Enviamos una solicitud GET y obtenemos la respuesta.
+                using HttpResponseMessage respuesta = await cliente.GetAsync(url);
+
+                // Mostramos el código de estado y el tipo de contenido recibido.
+                Console.WriteLine($"Estado HTTP: {(int)respuesta.StatusCode} ({respuesta.StatusCode})");
+                Console.WriteLine($"Tipo de contenido: {respuesta.Content.Headers.ContentType}");
+
+                // Comprobamos si el servidor ha devuelto un estado entre 200 y 299.
+                if (!respuesta.IsSuccessStatusCode)
+                {
+                    Console.WriteLine("El servidor ha respondido, pero la consulta no ha tenido éxito.");
+                    return;
+                }
+
+                // Leemos el cuerpo de la respuesta como una cadena de texto.
+                string html = await respuesta.Content.ReadAsStringAsync();
+
+                // Mostramos el HTML recibido. La consola no interpreta sus etiquetas.
+                Console.WriteLine();
+                Console.WriteLine("Contenido de la página:");
+                Console.WriteLine(html);
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine($"No se ha podido completar la solicitud: {ex.Message}");
+            }
+            catch (TaskCanceledException)
+            {
+                // En este ejemplo no se solicita cancelación manual.
+                Console.WriteLine("Se ha superado el tiempo máximo de espera de la solicitud.");
+            }
         }
     }
 }
